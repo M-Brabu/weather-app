@@ -1,0 +1,68 @@
+
+        body{
+            background-image: url("background\ image\ for\ weather\ app.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color:rgb(255, 255, 255);
+        
+        }
+        #input{
+            position: static;
+            padding: 10px;       
+            border-style:solid;
+            border-color: rgba(128, 128, 128.1);
+            background-color: rgba(191, 175, 175, 0.4);
+            border-radius: 25px;
+            width: 400px;
+            backdrop-filter:blur(3px);
+
+        }
+       #inpbox{
+        font-size: x-large;
+        margin: 20px;
+        border-radius: 25px;
+        border-color:rgba(0,0,255,0.5);
+        transition:border-color 3s ease,width 0.5s ease;
+        width:150px
+       }
+       #inpbox:hover{
+        border-color:rgb(0, 13, 255);
+        width: 200px
+       }
+       #inpbut{
+        margin: 20px;
+        border-radius: 25px;
+        border-color: rgba(5, 165, 5,0.3);
+        background-color: rgba(173, 255, 47,0.4);
+        color:black;
+        transition:all 1s ease;
+       }
+       #inpbut:hover{
+         border-color: rgba(5, 165, 5,1);
+        background-color: rgba(173, 255, 47,1);
+       }
+       #card{
+            position: static;
+            z-index:2;
+            padding: 10px;
+            top:50px;
+            position: relative;
+            border-style:solid;
+            border-color: rgba(128, 128, 128.1);
+            background-color: rgba(191, 175, 175, 0.4);
+            border-radius: 25px;
+            width: 400px;
+            backdrop-filter:blur(3px);
+
+       }
+       #heading{
+        border-style: groove;
+        border-radius: 25px;
+
+       }
